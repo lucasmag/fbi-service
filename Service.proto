@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package service;
+
+service Service {
+  rpc analyze(Report) returns (None);
+}
+
+message Report {
+  repeated string suspectWords = 1;
+  string content = 2;
+  string from = 3;
+  string to = 4;
+  string date = 5;
+}
+
+message None {}
