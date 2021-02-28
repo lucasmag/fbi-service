@@ -50,6 +50,8 @@ export default {
             if (!this.serverInUse) {
                 this.$server.sendSync('startServer', this.serverURI)
             }
+
+            this.$router.push({name: 'mediator'});
         }
     },
 };

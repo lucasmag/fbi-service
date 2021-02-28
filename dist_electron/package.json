@@ -14,12 +14,16 @@
   "main": "background.js",
   "dependencies": {
     "@grpc/proto-loader": "^0.5.6",
+    "amqplib": "^0.7.0",
     "core-js": "^3.6.5",
     "grpc": "^1.24.5",
+    "moment": "^2.29.1",
     "tcp-port-used": "^1.0.2",
     "vue": "^2.6.11",
     "vue-material": "^1.0.0-beta-15",
-    "vue-router": "^3.5.1"
+    "vue-router": "^3.5.1",
+    "vue-text-highlight": "^2.0.10",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
